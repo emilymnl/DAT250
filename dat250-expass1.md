@@ -2,6 +2,7 @@
 
 Technical problems that you encountered during installation of the software development environment and how you have solved them
 - no technical problems that I encountered during installation of the software development environment.
+
 how you have validated (checked) that the software development environment is working
 - checked which version was up and working. 
 
