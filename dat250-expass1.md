@@ -9,4 +9,4 @@ technical problems encountered with the Heroku platform and how you solved them
 -  problems with port 5000 that was already in use when trying to run the app locally with `heroku local`. Solved by restarting laptop and trying to run again.
 
 any pending issues with this assignment which you did not manage to solve
-- 
+- intellij started acting up so i did not manage to finish in time but I am on https://devcenter.heroku.com/articles/getting-started-with-java#define-config-vars
