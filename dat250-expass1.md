@@ -10,4 +10,4 @@ technical problems encountered with the Heroku platform and how you solved them
 -  problems with port 5000 that was already in use when trying to run the app locally with `heroku local`. Solved by restarting laptop and trying to run again.
 
 any pending issues with this assignment which you did not manage to solve
-- no pending issues
+- Not really an issue, but just wanted to mention that when writing `heroku addons:create papertrail` it wants me to enter my credit card for billings, which I did not enter. Therefore `heroku addons:open papertrail` could not find any add-ons. However I can see from the tutorial what it is supposed to look like and what information we will get. And then also I do not have the Postgres installed locally, thus could not use `heroku pg:psql` command. I did not know if it was necessary to have it locally, so if it is please do tell and I will install it.
