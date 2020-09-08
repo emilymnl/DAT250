@@ -11,7 +11,7 @@ I encountered technical problems during the installation of Apache Derby Databas
 .
 
 ### Any pending issues with this assignment which you did not manage to solve
-As mentioned earlier, I had some technical problems regarding the Apache Derby Database. First of all, I followed the tutorial exactly as how it is stated, but when writing the command `. setEmbeddedCP` nothing happens or nothing seems to be executed. It does not lag or give me an error, it just skips and gives me the opportunity to write a new command. Because of this, I also notice that `. setNetworkClientCP` and `. setNetworkServerCP` etc. do not respond or show me anything either. I have spent several days trying to figure out what the problem is. 
+As mentioned earlier, I had some technical problems regarding the Apache Derby Database. First of all, I followed the tutorial (http://db.apache.org/derby/papers/DerbyTut/install_software.html#derby_configure) exactly as how it is stated, but when writing the command `. setEmbeddedCP` nothing happens or nothing seems to be executed. It does not lag or give me an error, it just skips and gives me the opportunity to write a new command. Because of this, I also notice that `. setNetworkClientCP` and `. setNetworkServerCP` etc. do not respond or show me anything either. I have spent several days trying to figure out what the problem is. 
 
 This is what it looks like when I type it in terminal:
 
@@ -34,7 +34,7 @@ Emilys-MacBook-Pro:bin emilyminguyen$
 ```
 nothing happens. 
 
-when I verify with `java org.apache.derby.tools.sysinfo` it seems like it work because I get:
+When I verify with `java org.apache.derby.tools.sysinfo` it seems like it works because I get:
 
 ```
 ------------------ Java Information ------------------
@@ -140,4 +140,4 @@ export CLASSPATH=$DERBY_INSTALL/lib/derby.jar:$DERBY_INSTALL/lib/derbytools.jar:
 ```
 I commented the last line out because that is what TA suggested me to use as path, but for me it still did not fix things (rather it made my verification mess up. So when I put in that last line and type `java org.apache.derby.tools.sysinfo` it will say `-bash: java: command not found`.
 
-It might be that I messed up the tutorial somewhere early on, maybe the configurations are wrong or if those UNIX command that are stated from the tutorial only works for UNIX Korn Shell (it says UNIX Korn Shell some places in the tutorial and some places it just says UNIX) and not UNIX Bash (that I use). 
+It might be that I messed up the tutorial somewhere early on, maybe the configurations are wrong or if those UNIX command that are stated from the tutorial only works for UNIX Korn Shell (it says UNIX Korn Shell some places in the tutorial and some places it just says UNIX) and not UNIX Bash that I use. Because of all these pending issues, I have only come this far, even though starting not too late with the experiment. I spent days looking for a solution, asking around, trying all types of alternative solutions from Google etc. without luck so here I am. 
