@@ -13,6 +13,27 @@ I encountered technical problems during the installation of Apache Derby Databas
 ### Any pending issues with this assignment which you did not manage to solve
 As mentioned earlier, I had some technical problems regarding the Apache Derby Database. First of all, I followed the tutorial exactly as how it is stated, but when writing the command `. setEmbeddedCP` nothing happens or nothing seems to be executed. It does not lag or give me an error, it just skips and gives me the opportunity to write a new command. Because of this, I also notice that ". setNetworkClientCP" and ". setNetworkServerCP" etc. do not respond or show me anything either. I have spent several days trying to figure out what the problem is. 
 
+This is what it looks like when I type it in terminal:
+
+```
+Emilys-MacBook-Pro:~ emilyminguyen$ cd $DERBY_INSTALL/bin
+Emilys-MacBook-Pro:bin emilyminguyen$ ls
+NetworkServerControl		setNetworkClientCP.bat
+NetworkServerControl.bat	setNetworkServerCP
+dblook				setNetworkServerCP.bat
+dblook.bat			startNetworkServer
+derby_common.bat		startNetworkServer.bat
+ij				stopNetworkServer
+ij.bat				stopNetworkServer.bat
+setEmbeddedCP			sysinfo
+setEmbeddedCP.bat		sysinfo.bat
+setNetworkClientCP
+Emilys-MacBook-Pro:bin emilyminguyen$ . setEmbeddedCP
+Emilys-MacBook-Pro:bin emilyminguyen$ 
+
+```
+nothing happens. 
+
 when I verify with `java org.apache.derby.tools.sysinfo` it seems like it work because I get:
 
 ```
@@ -97,4 +118,26 @@ SimpleApp finished
 
 Anyway, I still went through the whole tutorial despite these issues.
 
-I later encountered the an issue with JPA where I could not even find javax.persistence_\*.jar-file from the eclipselink I downloaded. For information, I downloaded the latest released version 2.7.7. In the folder EclipseLink I encountered several more zip-folders that I later on had to open to look for the javax.persistence_\*.jar-file as well, since I could not find the file anywhere else. I spend a lot of time looking for it, but with no luck, thus could not come further in the experiment sadly enough.
+I later encountered an issue with JPA where I could not even find javax.persistence_\*.jar-file from the EclipseLink I downloaded. For information, I downloaded the latest released version 2.7.7. In the folder EclipseLink I saw several more zip-folders that I later on decided to open to look for the javax.persistence_\*.jar-file as well, since I could not find the file anywhere else. I spend a lot of time looking for it, but with no luck, thus could not come further in the experiment sadly enough. 
+
+For information, I did ask around fellow students and I also asked TA for help. 
+I have put DERBY_HOME, DERBY_INSTALL and JAVA_HOME as permanent/system paths so that I don't need to re-set them again for every new terminal I open. This is what it looks like on my ~/.bash_profile
+
+```
+# set JAVA_HOME
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home
+export PATH=$JAVA_HOME/bin:$PATH
+
+
+# set DERBY_INSTALL and DERBY_HOME
+export DERBY_INSTALL=ApacheDerby/db-derby-10.15.1.3-bin
+export DERBY_HOME=ApacheDerby/db-derby-10.15.1.3-bin/
+
+# configure embedded DERBY_INSTALL and DERBY_HOME
+export CLASSPATH=$DERBY_INSTALL/lib/derby.jar:$DERBY_INSTALL/lib/derbytools.jar:.
+# export PATH=$DERBY_HOME/bin
+
+```
+I commented the last line out because that is what TA suggested me to use as path, but for me it still did not fix things (rather it made my verification mess up. So when I put in that last line and type `java org.apache.derby.tools.sysinfo` it will say `-bash: java: command not found`.
+
+It might be that I messed up the tutorial somewhere early on, maybe the configurations are wrong or if those UNIX command that are stated from the tutorial only works for UNIX Korn Shell (it says UNIX Korn Shell some places in the tutorial and some places it just says UNIX) and not UNIX Bash (that I use). 
