@@ -11,7 +11,7 @@ I encountered technical problems during the installation of Apache Derby Databas
 .
 
 ### Any pending issues with this assignment which you did not manage to solve
-As mentioned earlier, I had some technical problems regarding the Apache Derby Database. First of all, I followed the tutorial exactly as how it is stated, but when writing the command `. setEmbeddedCP` nothing happens or nothing seems to be executed. It does not lag or give me an error, it just skips and gives me the opportunity to write a new command. Because of this, I also notice that ". setNetworkClientCP" and ". setNetworkServerCP" etc. do not respond or show me anything either. I have spent several days trying to figure out what the problem is. 
+As mentioned earlier, I had some technical problems regarding the Apache Derby Database. First of all, I followed the tutorial exactly as how it is stated, but when writing the command `. setEmbeddedCP` nothing happens or nothing seems to be executed. It does not lag or give me an error, it just skips and gives me the opportunity to write a new command. Because of this, I also notice that `. setNetworkClientCP` and `. setNetworkServerCP` etc. do not respond or show me anything either. I have spent several days trying to figure out what the problem is. 
 
 This is what it looks like when I type it in terminal:
 
