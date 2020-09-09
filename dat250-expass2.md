@@ -41,7 +41,7 @@ When I verify with `java org.apache.derby.tools.sysinfo` it seems like it works 
 Java Version:    13.0.2
 Java Vendor:     Oracle Corporation
 Java home:       /Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home
-Java classpath:  ApacheDerby/db-derby-10.15.1.3-bin//lib/derbyshared.jar:ApacheDerby/db-derby-10.15.1.3-bin//lib/derby.jar:ApacheDerby/db-derby-10.15.1.3-bin//lib/derbytools.jar:ApacheDerby/db-derby-10.15.1.3-bin//lib/derbyoptionaltools.jar:ApacheDerby/db-derby-10.15.1.3-bin//bin
+Java classpath:  ApacheDerby/db-derby-10.15.1.3-bin/lib/derby.jar:ApacheDerby/db-derby-10.15.1.3-bin/lib/derbytools.jar:.
 OS name:         Mac OS X
 OS architecture: x86_64
 OS version:      10.15.6
@@ -57,7 +57,6 @@ java.runtime.version: 13.0.2+8
 [/Users/emilyminguyen/ApacheDerby/db-derby-10.15.1.3-bin/lib/derbynet.jar] 10.15.1.3 - (1853019)
 [/Users/emilyminguyen/ApacheDerby/db-derby-10.15.1.3-bin/lib/derbyclient.jar] 10.15.1.3 - (1853019)
 [/Users/emilyminguyen/ApacheDerby/db-derby-10.15.1.3-bin/lib/derbyshared.jar] 10.15.1.3 - (1853019)
-[/Users/emilyminguyen/ApacheDerby/db-derby-10.15.1.3-bin/lib/derbyoptionaltools.jar] 10.15.1.3 - (1853019)
 ------------------------------------------------------
 ----------------- Locale Information -----------------
 Current Locale :  [English/Norway [en_NO]]
