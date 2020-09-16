@@ -3,6 +3,8 @@ Heroku
 
 Derby Database
 
+Java Persistence API
+
 IJ
 
 MongoDB
