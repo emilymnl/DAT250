@@ -9,7 +9,17 @@ Validating the MongoDB installation package using SHA-256 checksum
 ![SSValidation](screenshots/Screenshot-validation.png)
 
 - Relevant results obtained during Experiment 1 (it is not necessary to put a single screenshot on each substep, but at least one significant from each CRUD operation):  
-![SSValidation](screenshots/Screenshot-validation.png)
+    - Insert (here: Multiple):
+![insert](screenshots/Screenshot-insertM.png)
+    - Query (here: AND condition):
+![query](screenshots/Screenshot-queryAND.png)
+    - Update (here: a single document):
+![Update](screenshots/Screenshot-update.png)
+    - Delete (here: Only One Document that Matches a Condition):
+![Delete](screenshots/Screenshot-deleteOne.png)
+    - BulkWrite() (here: performs multiple operations on the collection):
+![BulkWrite](screenshots/Screenshot-bulkWrite.png)
+
 
 [//]: # (hei er dette en kommentar??????)
 
