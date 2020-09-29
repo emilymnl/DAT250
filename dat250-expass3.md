@@ -4,8 +4,9 @@
 .
 
 ### Screenshots for:
-The correct validation of the installation package (https://docs.mongodb.com/manual/tutorial/verify-mongodb-packages/):
-.
+The correct validation of the installation package (https://docs.mongodb.com/manual/tutorial/verify-mongodb-packages/):  
+Validating the MongoDB installation package using SHA-256 checksum  
+(screenshot here)
 
 Relevant results obtained during Experiment 1 (it is not necessary to put a single screenshot on each substep, but at least one significant from each CRUD operation): 
 .
