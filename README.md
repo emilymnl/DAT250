@@ -17,7 +17,10 @@ Java Persistence Architecture (JPA)
 
 **Expass 3:**  
 https://github.com/selabhvl/dat250public/blob/master/expassignments/expass3.md  
-MongoDB  
+MongoDB Database  
+MongoDB CRUD operations  
+Aggregation: Map-Reduce  
+(Aggregation Pipeline)  
 
 **Expass 4:**  
 https://github.com/selabhvl/dat250public/blob/master/expassignments/expass4.md  
