@@ -23,15 +23,22 @@ Validating the MongoDB installation package using SHA-256 checksum
 [//]: # (hei er dette en kommentar??????)
 
 - Experiment 2 example working and the additional Map-reduce operation (and its result) developed by each of you:  
-    - Aggregation:
+    - Aggregation:  
     ![aggregation](screenshots/Screenshot-aggregation.png)
-    - Additional operation developed by me using the same db as prev (Here: Total number of times per customer):
+    - Additional operation developed by me using the same db as prev (Here: Total number of times per customer):  
     ![aggregationME](screenshots/Screenshot-aggregationEM.png)
 
 
 
 ### Reason about why your implemented Map-reduce operation in Experiment 2 is useful and interpret the collection obtained.
-
+My implemented Map-reduced operation in Experiment 2 is useful for times when you want to know how many times the same `cust_id` has appeared in the database. The results gives us: 
+```
+{ "_id" : "Ant O. Knee", "value" : 2 }
+{ "_id" : "Busby Bee", "value" : 3 }
+{ "_id" : "Cam Elot", "value" : 2 }
+{ "_id" : "Don Quis", "value" : 3 }
+```
+Which says that "Ant O. Knee" appeared 2 times, "Busby Bee" 3 times, "Cam Elot" 2 times and "Don Quis" 3 times.
 
 ### Any pending issues with this assignment which you did not manage to solve
 No pending issues with this assignment which I did not manage to solve.
