@@ -1,9 +1,28 @@
 # DAT250
-Heroku  
-Derby Database  
-Java Persistence API  
-IJ  
+**Expass 1:**  
+https://github.com/selabhvl/dat250public/blob/master/expassignments/expass1.md  
+Java Development Environment (JDK) 
+IntelliJ IDEA  
+Maven software management tool  
+Git  
+Heroku 
+
+**Expass 2:**  
+https://github.com/selabhvl/dat250public/blob/master/expassignments/expass2.md  
+Apache Derby Database  
+IJ Basics  
+Embedded Derby  
+Derby Network Server  
+Java Persistence Architecture (JPA)  
+
+**Expass 3:**  
+https://github.com/selabhvl/dat250public/blob/master/expassignments/expass3.md  
 MongoDB  
+
+**Expass 4:**  
+https://github.com/selabhvl/dat250public/blob/master/expassignments/expass4.md  
+ 
+
 
 **Expass 5:**  
 https://github.com/selabhvl/dat250public/blob/master/expassignments/expass5.md  
