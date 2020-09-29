@@ -1,11 +1,11 @@
 # DAT250
 **Expass 1:**  
 https://github.com/selabhvl/dat250public/blob/master/expassignments/expass1.md  
-Java Development Environment (JDK) 
+Java Development Environment (JDK)  
 IntelliJ IDEA  
 Maven software management tool  
 Git  
-Heroku 
+Heroku  
 
 **Expass 2:**  
 https://github.com/selabhvl/dat250public/blob/master/expassignments/expass2.md  
