@@ -24,8 +24,9 @@ Aggregation: Map-Reduce
 
 **Expass 4:**  
 https://github.com/selabhvl/dat250public/blob/master/expassignments/expass4.md  
- 
-
+The Spark/Java framework  
+The Postman tool  
+Swagger  
 
 **Expass 5:**  
 https://github.com/selabhvl/dat250public/blob/master/expassignments/expass5.md  
