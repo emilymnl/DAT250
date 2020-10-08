@@ -36,6 +36,6 @@ Rest Service
 Data Access  
 
 **Expass 6:**  
-https://github.com/selabhvl/dat250public/blob/master/expassignments/expass6.md
-Spring MVC (Modell-View-Controller Web Applications)
+https://github.com/selabhvl/dat250public/blob/master/expassignments/expass6.md  
+Spring MVC (Modell-View-Controller Web Applications)  
 React framework (Single-page Web Applications)
