@@ -39,3 +39,7 @@ Data Access
 https://github.com/selabhvl/dat250public/blob/master/expassignments/expass6.md  
 Spring MVC (Modell-View-Controller Web Applications)  
 React framework (Single-page Web Applications)
+
+**Expass 7:**  
+https://github.com/selabhvl/dat250public/blob/master/expassignments/expass7.md  
+RabbitMQ message broker
